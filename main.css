@@ -1,0 +1,126 @@
+.header-wraper{
+    background-color: #F1F1F1;
+}
+.btn-primary{
+    border-radius: 0px;
+    background-color: #1E2832;
+    color: white;
+    border: none;
+}
+.header_shopnow-btn{
+    border-radius: 0;
+}
+
+.product_shopnow-btn{
+    text-decoration: none;
+}
+
+.product-cart{
+    background-color: #1E2832;
+}
+
+.feature-product .container{
+    position: relative;
+}
+.feature-product-explore{
+    font-size: 34px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45%;left: -300px;
+    transform: rotate(-90deg);
+    z-index: 1000;
+}
+
+.product-image{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 23px;
+}
+.product-image:hover .product__info{
+    bottom: 0;
+}
+.product__info{
+    position: absolute;
+    bottom: -100%;
+    left: 0; 
+    right: 0;
+    background-color: #1E2832;
+    color: #fff;
+
+    transition: ease-in-out 0.2s;
+}
+.product__name{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+.product-meta{
+    padding: 10px 0;
+}
+.product__category{
+    font-size: 16px;
+    color: #777;
+    text-decoration: none;
+}
+.product__price{
+    font-size: 16px;
+}
+.product__price--old{
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: #777777
+}
+.product__price--new{
+    color: #FF6F61;
+}
+.product__sale{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.follow-instagam{
+    background-color: #f1f1f1;
+}
+
+.old-price{
+    color: black;
+    text-decoration: line-through;
+    opacity: 40%;
+}
+
+.new-price{
+    color: red;   
+}
+
+/* banner collections */
+.feature-collection{
+    background-image: url(./image/ZARA-collection.png);
+    background-size: 100% 100%;
+}
+
+/* Follow insta */
+.insta-image{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 23px;
+}
+.insta-image:hover .insta-image-min{
+    background-color: rgb(171, 171, 171);
+    opacity: 60%;
+    background-image: url(./image/Instalogo.png);
+    
+}
+
+.flinsta__info{
+    position: absolute;
+    background-color: gray;
+}
+
+.ZARA-collection h1{
+    font-size: 100px;
+}
